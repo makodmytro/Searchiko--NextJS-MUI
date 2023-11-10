@@ -1,0 +1,33 @@
+{
+  "name": "roiter-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0 -p ${PORT:-8080}",
+    "lint": "next lint"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.13",
+    "@mui/material": "^5.13.6",
+    "@portabletext/react": "^3.0.3",
+    "next": "^13.5.4",
+    "next-client-cookies": "^1.0.3",
+    "next-sanity": "^5.5.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sanity": "^3.17.0",
+    "sharp": "^0.32.6",
+    "styled-components": "^5.3.11"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC"
+}
